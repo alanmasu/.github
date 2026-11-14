@@ -1,0 +1,25 @@
+# Adds every new issue and pull request to a project.
+# Set the initial Status in the project itself: Workflows > "Item added to project".
+name: Project auto-add
+
+on:
+  issues:
+    types: [opened, reopened, transferred]
+  # pull_request_target so the secret is available for PRs from forks too.
+  # The action never runs PR code, so this is safe.
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v1
+        with:
+          project-url: https://github.com/users/alanmasu/projects/1   # change me
+          github-token: ${{ secrets.PROJECT_TOKEN }}
+          # labeled: area: hw, area: fw    # optional filter
+          # label-operator: OR             # OR | AND | NOT

@@ -1,0 +1,10 @@
+# KiCad - append to the repository .gitignore
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+\#auto_saved_files#
+_autosave-*
+# Fabrication outputs: attach them to releases instead of committing
+production/
+gerbers/

@@ -1,0 +1,22 @@
+# RTL / FPGA / ASIC - append to the repository .gitignore
+build/
+sim_build/
+obj_dir/
+*.vcd
+*.fst
+*.ghw
+# Vivado
+.Xil/
+*.cache/
+*.runs/
+*.hw/
+*.ip_user_files/
+*.sim/
+vivado*.jou
+vivado*.log
+# Quartus
+db/
+incremental_db/
+output_files/
+# OpenLane / OpenROAD
+runs/
