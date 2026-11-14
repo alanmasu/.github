@@ -12,7 +12,7 @@ Contents: [Issues](#issues) · [Bug, feature or task?](#bug-feature-or-task) · 
 
 - **Search first.** Comment on an existing issue instead of opening a duplicate.
 - **One problem per issue.** Two bugs are two issues, even if they were found together.
-- **Use a template** and delete the sections that do not apply.
+- **Use a template** when one fits (blank issues are allowed) and delete the sections that do not apply.
 - **Title**: keep the prefix the template puts in (`bug(fw): `, `feat: `, `task: ` ...) and
   describe the problem, not the solution: `bug(hw): U3 footprint pins 4 and 5 swapped`.
 - **Be reproducible.** Versions, commands, measurements and logs are worth more than long
