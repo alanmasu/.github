@@ -21,9 +21,11 @@ board bring-up, ordering parts, preparing a release, research spike.
 - [ ]
 - [ ]
 
-## Dependencies
+## Waiting on
 
-<!-- Issues, parts, tools or people this task waits on, e.g. "blocked by #12". -->
+<!-- Things outside GitHub this task waits on: parts, tools, people, suppliers.
+For other issues use the "Relationships" panel (Blocked by / Blocking), not this section.
+Remove this section if not used. -->
 
 ## Definition of done
 
