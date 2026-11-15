@@ -3,16 +3,16 @@ base	bug	d73a4a	Something should work and does not
 base	enhancement	a2eeef	New capability or change in behavior (feature)
 base	task	c5def5	Work that is neither a bug nor a feature
 base	documentation	0075ca	Documentation only
-base	testing	bfd4f2	Tests only: unit tests, testbenches, hardware test and bring-up
+base	testing	c2e0c6	Tests only: unit tests, testbenches, hardware test and bring-up
 base	question	d876e3	Request for information
 base	duplicate	cfd3d7	Already reported elsewhere
 base	invalid	e4e669	Not a valid issue
 base	wontfix	ffffff	Will not be worked on
 base	on develop	8521fc	Fix merged into develop, waiting for release
-area	area: sw	1d76db	Software: applications, libraries, tools, scripts
-area	area: fw	5319e7	Firmware running on a microcontroller
-area	area: hw	fbca04	Hardware: schematic, PCB, BOM, assembly (KiCad)
-area	area: rtl	0e8a16	RTL: FPGA and chip design
+area	area: sw	006b75	Software: applications, libraries, tools, scripts
+area	area: fw	006b75	Firmware running on a microcontroller
+area	area: hw	006b75	Hardware: schematic, PCB, BOM, assembly (KiCad)
+area	area: rtl	006b75	RTL: FPGA and chip design
 hw	hw: next rev	e99695	Goes into the next board version
 advanced	needs triage	ededed	Not yet reviewed by a maintainer
 advanced	breaking change	b60205	Breaks compatibility: requires a MAJOR version bump
