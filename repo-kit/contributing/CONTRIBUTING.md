@@ -38,7 +38,7 @@ missing here.
 
 | Tier | Labels | Used for |
 |---|---|---|
-| base | `bug`, `enhancement`, `task`, `documentation`, `question`, `duplicate`, `invalid`, `wontfix`, `on develop` | Kind of issue, resolution, and `on develop` = fix merged into `develop`, waiting for release (set automatically) |
+| base | `bug`, `enhancement`, `task`, `documentation`, `testing`, `question`, `duplicate`, `invalid`, `wontfix`, `on develop` | Kind of issue, resolution, and `on develop` = fix merged into `develop`, waiting for release (set automatically) |
 | area | `area: sw`, `area: fw`, `area: hw`, `area: rtl` | Which part of the project is involved, in repositories that mix several |
 | hw | `hw: next rev` | Changes for the next board version |
 | advanced | `needs triage`, `breaking change`, `dependencies`, `do not close` | Triage, breaking changes, Dependabot, and `do not close` = referenced by a fix but not actually solved |

@@ -3,6 +3,7 @@ base	bug	d73a4a	Something should work and does not
 base	enhancement	a2eeef	New capability or change in behavior (feature)
 base	task	c5def5	Work that is neither a bug nor a feature
 base	documentation	0075ca	Documentation only
+base	testing	bfd4f2	Tests only: unit tests, testbenches, hardware test and bring-up
 base	question	d876e3	Request for information
 base	duplicate	cfd3d7	Already reported elsewhere
 base	invalid	e4e669	Not a valid issue
